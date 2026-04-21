@@ -189,30 +189,5 @@ curl https://yourdomain.com/api/health
 
 ---
 
-## 🚨 Troubleshooting
-
-### MongoDB not connecting?
-
-```bash
-mongosh --eval "db.adminCommand('ping')"
-```
-
-### Port already in use?
-
-```bash
-PORT=5001
-```
-
-### JWT expired?
-
-```env
-JWT_EXPIRE=30d
-```
-
----
-
-## 📄 License
-
-MIT © CivicPulse 2024
 
 
